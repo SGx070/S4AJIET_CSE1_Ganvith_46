@@ -9,7 +9,7 @@ public class Main
 		for(int i=0;i<s.length();i++){
 		   rev = s.charAt(i) + rev;
 		}
-		if(s.equalsIgnoreCase(rev))
+		if(s.equals(rev))
 		    System.out.println("It is a palindrome");
 		else
 		    System.out.println("It's not a palindrome");
